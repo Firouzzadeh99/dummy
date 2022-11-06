@@ -6,7 +6,7 @@ export const errorHandler = (data)=>{
         delete error.name
     }
     if(!data.family.trim()){
-          error.family = 'نام خانوادگی معتبر نیست'
+          error.family = 'نام خانوادگی معتبر نیست' 
     }else{
         delete error.family
     }
