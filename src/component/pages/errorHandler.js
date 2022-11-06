@@ -1,7 +1,7 @@
 export const errorHandler = (data)=>{
   const error = {}
     if(!data.name.trim()){
-          error.name = 'نام معتبر نیست'
+          error.name = 'نام معتبر نیست' 
     }else{
         delete error.name
     }
