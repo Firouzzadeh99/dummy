@@ -1,0 +1,63 @@
+.profile {
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 0 0 30px;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(216, 216, 216);
+}
+.profile-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  padding-right: 10px;
+}
+.profile-img img {
+  width: inherit;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.profile p {
+  margin-top: 1rem;
+  color:rgb(85, 85, 85);
+  padding-right: 30px;
+}
+.list-wrapper {
+  padding: 10px 0 10px 60px;
+}
+.list-wrapper p {
+  font-size: 16px;
+  color: rgb(168, 164, 164);
+  text-align: center;
+  margin: 0;
+  padding-top: 10px;
+}
+
+.lists {
+  padding: 0;
+  list-style: none;
+}
+.lists li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 27px;
+}
+.lists li a {
+  font-size: 17px;
+  text-decoration: none;
+  color: rgb(112, 109, 109);
+  transition: all 0.2s ease;
+
+}
+.lists li a:hover {
+  color: rgb(190, 190, 190);
+}
+i {
+  font-size: 17px;
+  color: rgb(129, 128, 128);
+  margin-left: 10px;
+}

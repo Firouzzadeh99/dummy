@@ -1,0 +1,21 @@
+.top-menue{
+    width: 100%;
+    height:30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  var(--primary-color);
+    padding: 25px 20px 20px 20px;
+     border-bottom:1px  solid rgb(197, 197, 197);
+}
+.top-menue p{
+    padding-left: 15px;
+    color:rgb(224, 224, 224);
+
+}
+.top-menue i{
+    cursor: pointer;
+    padding-right: 10px;
+    font-size: 22px !important;
+    color:rgb(214, 214, 214)!important;
+}
